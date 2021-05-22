@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JBtmxn8W8GpaZgUGBv1gof1BG/9LZIMQPQiwfsQ4gYG2BeTDYqBeOei86aiTjL23g2Gg7m2IEOX78pWuEpbUIQ==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Martin\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Martin\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,860 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web\\MyCookingPassion.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj",
+        "projectName": "MyCookingPassion.Data.Common",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj",
+        "projectName": "MyCookingPassion.Data.Models",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
+        "projectName": "MyCookingPassion.Data",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj",
+        "projectName": "MyCookingPassion.Common",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Data\\MyCookingPassion.Services.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Data\\MyCookingPassion.Services.Data.csproj",
+        "projectName": "MyCookingPassion.Services.Data",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Data\\MyCookingPassion.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj",
+        "projectName": "MyCookingPassion.Services.Mapping",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj",
+        "projectName": "MyCookingPassion.Services.Messaging",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.23.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
+        "projectName": "MyCookingPassion.Services",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
+        "projectName": "MyCookingPassion.Web.Infrastructure",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj",
+        "projectName": "MyCookingPassion.Web.ViewModels",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web\\MyCookingPassion.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web\\MyCookingPassion.Web.csproj",
+        "projectName": "MyCookingPassion.Web",
+        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web\\MyCookingPassion.Web.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Data\\MyCookingPassion.Services.Data.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Data\\MyCookingPassion.Services.Data.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj"
+              },
+              "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj": {
+                "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[2.1.113, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
