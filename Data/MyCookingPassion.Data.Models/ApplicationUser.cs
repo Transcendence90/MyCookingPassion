@@ -4,9 +4,8 @@ namespace MyCookingPassion.Data.Models
     using System;
     using System.Collections.Generic;
 
-    using MyCookingPassion.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using MyCookingPassion.Data.Common.Models;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {

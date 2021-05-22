@@ -3,9 +3,8 @@ namespace MyCookingPassion.Data.Models
 {
     using System;
 
-    using MyCookingPassion.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using MyCookingPassion.Data.Common.Models;
 
     public class ApplicationRole : IdentityRole, IAuditInfo, IDeletableEntity
     {
