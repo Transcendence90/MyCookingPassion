@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nF+9j8KsI0oo20E2rkpA3NZpenj+UHOW590NKgHxXcBt7S3yVqOAa+XjhGYj6EcT4wUiRPEVUpMVfodwwyFBvA==",
+  "dgSpecHash": "t22YvpCu8n1hHs31VeQGLcgJ/p4RkwOIwDTDUQHDAqb8R5s9g9NzOyEoE2EXi77NrPkLh5pHDuvePjX68a++5g==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"

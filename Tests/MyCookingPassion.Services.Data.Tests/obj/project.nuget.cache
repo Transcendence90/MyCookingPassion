@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/IvT+9Wb7+uGX8NJvrbQ+FEBJK4m0x2nz0Z7HwwY5OuXkkmvshUxzlCw5r5PD5nwF/MZX4W2bS08nEflYl9qQ==",
+  "dgSpecHash": "JqCVdBvHtAE66SUtUGAnrU+1J+8X/qXfVM+CGncWv21K6dDSeWs9to337ktAN/Q31P8TtAebgQsDFBeQfIBpAQ==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Tests\\MyCookingPassion.Services.Data.Tests\\MyCookingPassion.Services.Data.Tests.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Tests\\MyCookingPassion.Services.Data.Tests\\MyCookingPassion.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

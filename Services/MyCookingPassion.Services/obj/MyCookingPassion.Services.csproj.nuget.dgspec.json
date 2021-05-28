@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj": {}
+    "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj": {
+    "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
+        "projectUniqueName": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
         "projectName": "MyCookingPassion.Services",
-        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
+        "projectPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services\\MyCookingPassion.Services.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services\\obj\\",
+        "outputPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

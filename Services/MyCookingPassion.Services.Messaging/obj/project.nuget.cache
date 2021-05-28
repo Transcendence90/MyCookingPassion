@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h9cY6UWL+Jd0aARKa5DZ3XhukbSJLuvHlrZyg3DCe272Q8fAbjXkPlYSJp9voMQQjZw+FxHNTqhQwrkXUc3aFg==",
+  "dgSpecHash": "tSDEe4FiAjEI4kA+AsW73/gVltZUV/I4Cj4KufrUfBbO0vrcNjIHQu2M7jSNyxj8rlmDNupk6Nhe4Q8Xn+IOUg==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services.Messaging\\MyCookingPassion.Services.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

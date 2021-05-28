@@ -1,16 +1,31 @@
 ﻿namespace MyCookingPassion.Web.Controllers
 {
     using System.Diagnostics;
-
-    using MyCookingPassion.Web.ViewModels;
-
+    using System.Linq;
     using Microsoft.AspNetCore.Mvc;
+    using MyCookingPassion.Data;
+    using MyCookingPassion.Web.ViewModels;
+    using MyCookingPassion.Web.ViewModels.Home;
 
     public class HomeController : BaseController
     {
+        private readonly ApplicationDbContext db;
+
+        public HomeController(ApplicationDbContext db)
+        {
+            this.db = db;
+        }
+
         public IActionResult Index()
         {
-            return this.View();
+            var viewModel = new IndexViewModel
+            {
+                RecipesCount = this.db.Categories.Count(),
+                IngredientsCount = this.db.Ingredients.Count(),
+                CategoriesCount = this.db.Categories.Count(),
+            };
+
+            return this.View(viewModel);
         }
 
         public IActionResult Privacy()

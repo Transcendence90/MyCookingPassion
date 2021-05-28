@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xXz6N8eD3W8hnwhjPbOuHUPeXHWWETvAXov+XpenHqtVrmK8QhahExhSSYUg83ZaUzUrv6vE3Xu/KoaTaKaqMw==",
+  "dgSpecHash": "QC4Anm+ABIEuWBk3uGmMXom2SzjPLQ8/Lq27+wYwpAVkTYLDy/vXHXSZkFa6MVyEXdmAU7SXtGWXyYPjHul8JA==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",

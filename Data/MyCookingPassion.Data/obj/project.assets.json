@@ -6306,11 +6306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
+      "projectUniqueName": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
       "projectName": "MyCookingPassion.Data",
-      "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
+      "projectPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data\\MyCookingPassion.Data.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data\\obj\\",
+      "outputPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -6331,14 +6331,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj": {
-              "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj"
+            "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj": {
+              "projectPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data.Common\\MyCookingPassion.Data.Common.csproj"
             },
-            "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
-              "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj"
+            "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj": {
+              "projectPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data.Models\\MyCookingPassion.Data.Models.csproj"
             },
-            "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj": {
-              "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj"
+            "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj": {
+              "projectPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\MyCookingPassion.Common\\MyCookingPassion.Common.csproj"
             }
           }
         }

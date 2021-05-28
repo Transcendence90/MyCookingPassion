@@ -12,10 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyCookingPassion.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Data\\MyCookingPassi" +
-    "on.Data", "MyCookingPassion.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyCookingPassion.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassio" +
-    "n.Web", "MyCookingPassion.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyCookingPassion.Data", "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Data\\MyCookingPassion.Data", "MyCookingPassion.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("MyCookingPassion.Web", "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web", "MyCookingPassion.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCookingPassion.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

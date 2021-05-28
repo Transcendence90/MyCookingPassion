@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QmLSTC/7hMRC6Q7BF+IZ+4jwUoqX3wJG8hmUdC11rthc9wXAx4fFT+drK4h6L70PhJH3OAr1WiDXHdK9jLiDRw==",
+  "dgSpecHash": "xx9y9zGiycjpLOUdtIv2JT0+4Ab5JW2/6eRzLsfWnMd96HW5XB5YrZTX9+NaqBEG68ureTvLaI59qfNIUiGN7Q==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",

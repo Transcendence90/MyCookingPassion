@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AGzSlu37Rerk5SwitFYAPImXpDWRcw/XQ1R/PgIDwXSgM2FM4I6WK5OgiVycpv9xzNglkblA2HvfEu9qrNquqQ==",
+  "dgSpecHash": "2AhiOh6ee2Ll1h8ahhhVClWDNFQCDJFQkjmewIRqdEh/K0F+wsxKd9KUDmKOpx4XWfbngu1zCk7CzrLekl6v4g==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Services\\MyCookingPassion.Services.Mapping\\MyCookingPassion.Services.Mapping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

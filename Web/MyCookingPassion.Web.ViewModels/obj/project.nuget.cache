@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EScjayfhqpfLEvpjPCMNiWx3SkvUNXdxNvReVSMTn7Dxantrbx1F8Fcp6Z5zWoKbFkWxyxziooiPEfAfLU3vLg==",
+  "dgSpecHash": "9cHPCNrAKPQRrm89QVLJ0EV32ApazwuQBVb9BaIACG05dHEPMmMD+spV74KH7uIeqM0w4TIUUmYtVM5xsdvQGw==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.ViewModels\\MyCookingPassion.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",

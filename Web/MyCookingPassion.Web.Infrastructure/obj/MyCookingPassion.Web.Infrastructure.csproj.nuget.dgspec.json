@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj": {}
+    "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj": {
+    "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
+        "projectUniqueName": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
         "projectName": "MyCookingPassion.Web.Infrastructure",
-        "projectPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
+        "projectPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\MyCookingPassion.Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\obj\\",
+        "outputPath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Web\\MyCookingPassion.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

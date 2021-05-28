@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ukBvBu7H6lZ6UPPAKhH0V13AiQz+4o77m2tqNWLQalApkpSrehCTJkq8Jx0TIusejnX2BkzxQXFxCr+JRWayBw==",
+  "dgSpecHash": "sccl5CYxC26VhE+FWyQzd99ZMeKrmFk/LRL+IuWE55NWdyAiV2wX013Fu6Y2fPm7i/RtS0BgEH/YHDYIFkrv9g==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio-Projects\\CSharp-ASP.NET Core\\MyCookingPassion\\Tests\\MyCookingPassion.Web.Tests\\MyCookingPassion.Web.Tests.csproj",
+  "projectFilePath": "D:\\VisualStudio-Projects\\WebProjects\\MyCookingPassion\\Tests\\MyCookingPassion.Web.Tests\\MyCookingPassion.Web.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
