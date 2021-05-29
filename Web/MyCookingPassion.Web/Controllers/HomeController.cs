@@ -1,30 +1,23 @@
 ﻿namespace MyCookingPassion.Web.Controllers
 {
     using System.Diagnostics;
-    using System.Linq;
+
     using Microsoft.AspNetCore.Mvc;
-    using MyCookingPassion.Data;
+    using MyCookingPassion.Services.Data;
     using MyCookingPassion.Web.ViewModels;
-    using MyCookingPassion.Web.ViewModels.Home;
 
     public class HomeController : BaseController
     {
-        private readonly ApplicationDbContext db;
+        private readonly IGetCountsService countsService;
 
-        public HomeController(ApplicationDbContext db)
+        public HomeController(IGetCountsService countsService)
         {
-            this.db = db;
+            this.countsService = countsService;
         }
 
         public IActionResult Index()
         {
-            var viewModel = new IndexViewModel
-            {
-                RecipesCount = this.db.Categories.Count(),
-                IngredientsCount = this.db.Ingredients.Count(),
-                CategoriesCount = this.db.Categories.Count(),
-            };
-
+            var viewModel = this.countsService.GetCounts();
             return this.View(viewModel);
         }
 

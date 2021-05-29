@@ -16,6 +16,7 @@
     using MyCookingPassion.Data.Models;
     using MyCookingPassion.Data.Repositories;
     using MyCookingPassion.Data.Seeding;
+    using MyCookingPassion.Services.Data;
     using MyCookingPassion.Services.Mapping;
     using MyCookingPassion.Services.Messaging;
     using MyCookingPassion.Web.ViewModels;
@@ -62,6 +63,9 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
+            services.AddTransient<IGetCountsService, GetCountsService>();
+            services.AddTransient<ICategoriesService, CategoriesService>();
+            services.AddTransient<IRecipesService, RecipesService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\MyCookingPassion.Data.Common\MyCookingPassion.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\MyCookingPassion.Data.Models\MyCookingPassion.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\MyCookingPassion.Web.ViewModels\MyCookingPassion.Web.ViewModels.csproj" />
     <ProjectReference Include="..\MyCookingPassion.Services.Mapping\MyCookingPassion.Services.Mapping.csproj" />
   </ItemGroup>
 
