@@ -23,7 +23,7 @@
 
         public IDeletableEntityRepository<Ingredient> IngredientsRepository { get; }
 
-        public async Task CreateAsync(CreateRecipeInputModel input)
+        public async Task CreateAsync(CreateRecipeInputModel input, string userId)
         {
             var recipe = new Recipe()
             {
@@ -33,6 +33,7 @@
                 Name = input.Name,
                 PortionsCount = input.PortionsCount,
                 PreparationTime = TimeSpan.FromMinutes(input.PreparationTime),
+                AddedByUserId = userId,
             };
 
             foreach (var inputIngredient in input.Ingredients)

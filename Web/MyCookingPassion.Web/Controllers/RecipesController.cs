@@ -2,7 +2,10 @@
 {
     using System.Threading.Tasks;
 
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
+    using MyCookingPassion.Data.Models;
     using MyCookingPassion.Services.Data;
     using MyCookingPassion.Web.ViewModels.Recipes;
 
@@ -10,15 +13,19 @@
     {
         private readonly ICategoriesService categoriesService;
         private readonly IRecipesService recipesService;
+        private readonly UserManager<ApplicationUser> userManager;
 
         public RecipesController(
             ICategoriesService categoriesService,
-            IRecipesService recipesService)
+            IRecipesService recipesService,
+            UserManager<ApplicationUser> userManager)
         {
             this.categoriesService = categoriesService;
             this.recipesService = recipesService;
+            this.userManager = userManager;
         }
 
+        [Authorize]
         public IActionResult Create()
         {
             var viewModel = new CreateRecipeInputModel();
@@ -27,6 +34,7 @@
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(CreateRecipeInputModel input)
         {
             if (!this.ModelState.IsValid)
@@ -35,7 +43,8 @@
                 return this.View(input);
             }
 
-            await this.recipesService.CreateAsync(input);
+            var user = await this.userManager.GetUserAsync(this.User);
+            await this.recipesService.CreateAsync(input, user.Id);
             return this.Redirect("/");
         }
     }
