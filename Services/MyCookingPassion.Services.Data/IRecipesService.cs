@@ -10,5 +10,7 @@
         Task CreateAsync(CreateRecipeInputModel input, string userId);
 
         IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 15);
+
+        int GetCount();
     }
 }

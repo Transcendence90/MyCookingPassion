@@ -68,5 +68,10 @@
 
             return recipes;
         }
+
+        public int GetCount()
+        {
+            return this.recipesRepository.All().Count();
+        }
     }
 }
