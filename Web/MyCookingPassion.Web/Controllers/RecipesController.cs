@@ -47,5 +47,16 @@
             await this.recipesService.CreateAsync(input, user.Id);
             return this.Redirect("/");
         }
+
+        public IActionResult All(int id)
+        {
+            var viewModel = new RecipesListViewModel
+            {
+                PageNumber = id,
+                Recipes = this.recipesService.GetAll<RecipeInListViewModel>(id, 15),
+            };
+
+            return this.View(viewModel);
+        }
     }
 }

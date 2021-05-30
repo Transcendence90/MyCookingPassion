@@ -1,11 +1,13 @@
 ﻿namespace MyCookingPassion.Services.Data
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
 
     using MyCookingPassion.Data.Common.Repositories;
     using MyCookingPassion.Data.Models;
+    using MyCookingPassion.Services.Mapping;
     using MyCookingPassion.Web.ViewModels.Recipes;
 
     public class RecipesService : IRecipesService
@@ -53,6 +55,18 @@
 
             await this.recipesRepository.AddAsync(recipe);
             await this.recipesRepository.SaveChangesAsync();
+        }
+
+        public IEnumerable<Т> GetAll<Т>(int page, int itemsPerPage = 15)
+        {
+            var recipes = this.recipesRepository.AllAsNoTracking()
+                .OrderByDescending(x => x.Id)
+                .Skip((page - 1) * itemsPerPage)
+                .Take(itemsPerPage)
+                .To<Т>()
+                .ToList();
+
+            return recipes;
         }
     }
 }
