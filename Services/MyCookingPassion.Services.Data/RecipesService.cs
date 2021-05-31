@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
 
@@ -20,12 +21,10 @@
             IDeletableEntityRepository<Ingredient> ingredientsRepository)
         {
             this.recipesRepository = recipesRepository;
-            this.IngredientsRepository = ingredientsRepository;
+            this.ingredientsRepository = ingredientsRepository;
         }
 
-        public IDeletableEntityRepository<Ingredient> IngredientsRepository { get; }
-
-        public async Task CreateAsync(CreateRecipeInputModel input, string userId)
+        public async Task CreateAsync(CreateRecipeInputModel input, string userId, string imagePath)
         {
             var recipe = new Recipe()
             {
@@ -40,7 +39,7 @@
 
             foreach (var inputIngredient in input.Ingredients)
             {
-                var ingredient = this.IngredientsRepository.All().FirstOrDefault(x => x.Name == inputIngredient.IngredientName);
+                var ingredient = this.ingredientsRepository.All().FirstOrDefault(x => x.Name == inputIngredient.IngredientName);
                 if (ingredient == null)
                 {
                     ingredient = new Ingredient { Name = inputIngredient.IngredientName };
@@ -51,6 +50,26 @@
                     Ingredient = ingredient,
                     Quantity = inputIngredient.Quantity,
                 });
+            }
+
+            var allowedExtensions = new[] { "jpg", "png", "gif" };
+
+            foreach (var image in input.Images)
+            {
+                var extension = Path.GetExtension(image.FileName);
+                if (!allowedExtensions.Any(x => extension.EndsWith(x)))
+                {
+                    throw new Exception($"Invalid image extension {extension}");
+                }
+
+                var dbImage = new Image
+                {
+                    AddedByUserId = userId,
+                    Extension = extension,
+                };
+                recipe.Images.Add(dbImage);
+
+                var physicalPath = $"{imagePath}/recipes/{dbImage.Id}.{extension}";
             }
 
             await this.recipesRepository.AddAsync(recipe);
