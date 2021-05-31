@@ -1,14 +1,15 @@
 ﻿@model MyCookingPassion.Web.ViewModels.Recipes.RecipesListViewModel
 @{
-    this.ViewData["Title"] = "All recipes, Page...";
+    this.ViewData["Title"] = "All Рecipes, Page" + Model.PageNumber;
 }
 
-<h1>@this.ViewData["Title"]</h1>
+<h1 class="text-center">@this.ViewData["Title"]</h1>
+<hr />
 
 <div class="row">
     @foreach (var recipe in this.Model.Recipes)
     {
-        <div class="media col-md-4">
+        <div class="media col-md-4 card-columns">
             <img src="@recipe.ImageUrl" width="100" class="mr-3" img-responsive>
             <div class="media-body">
                 <h5 class="mt-0">@recipe.Name</h5>

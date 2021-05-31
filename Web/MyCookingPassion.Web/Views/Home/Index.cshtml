@@ -6,12 +6,11 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-    <div class="col-md-4 offset-4">
-        <p>We have:</p>
-        <ul class="list-group">
-            <li class="list-group-item bg-success">Recipes: @Model.RecipesCount</li>
-            <li class="list-group-item bg-success">Categories: @Model.CategoriesCount</li>
-            <li class="list-group-item bg-success">Ingredients: @Model.IngredientsCount</li>
-        </ul>
-    </div> 
+    <hr />
+    <div class="col-md-8 offset-2">
+        <h2>We have:</h2>
+        <span class="card-header bg-success badge-pill">Recipes: @Model.RecipesCount</span>
+        <span class="card-header bg-success badge-pill">Categories: @Model.CategoriesCount</span>
+        <span class="card-header bg-success badge-pill">Ingredients: @Model.IngredientsCount</span>
+    </div>
 </div>
