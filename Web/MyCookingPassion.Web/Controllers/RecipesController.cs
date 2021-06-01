@@ -52,7 +52,7 @@
 
             try
             {
-                await this.recipesService.CreateAsync(input, user.Id, $"{this.environment.ContentRootPath}/images");
+                await this.recipesService.CreateAsync(input, user.Id, $"{this.environment.WebRootPath}/images");
             }
             catch (Exception ex)
             {
@@ -76,6 +76,12 @@
             };
 
             return this.View(viewModel);
+        }
+
+        public IActionResult ById(int id)
+        {
+            var recipe = this.recipesService.GetById<SingleRecipeViewModel>(id);
+            return this.View(recipe);
         }
     }
 }

@@ -13,7 +13,7 @@
         public string Name { get; set; }
 
         [Required]
-        [MinLength(100)]
+        [MinLength(90)]
         public string Instructions { get; set; }
 
         [Range(0, 24 * 60)]
