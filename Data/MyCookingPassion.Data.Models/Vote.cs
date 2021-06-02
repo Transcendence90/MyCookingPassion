@@ -1,7 +1,6 @@
 ﻿namespace MyCookingPassion.Data.Models
 {
     using MyCookingPassion.Data.Common.Models;
-    using MyCookingPassion.Data.Models;
 
     public class Vote : BaseModel<int>
     {
