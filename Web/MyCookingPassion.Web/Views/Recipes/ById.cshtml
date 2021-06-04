@@ -122,7 +122,7 @@
     <div class="making-elements-wrap">
         <div class="row">
             <div class="col-md-6">
-                <p class="item-description">
+                <p class="ranna-box-style">
                     @Model.Instructions
                 </p>
             </div>
@@ -131,7 +131,7 @@
                     <h3 class="item-title"><i class="fas fa-list-ul"></i>Ingridients</h3>
                     @foreach (var ingredient in Model.Ingredients)
                     {
-        <div class="checkbox checkbox-primary">
+        <div class="item-box ranna-box-style">
             <label for="checkbox1">@ingredient.Quantity @ingredient.IngredientName</label>
         </div>}
                 </div>
