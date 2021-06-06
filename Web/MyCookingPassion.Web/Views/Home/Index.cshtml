@@ -5,17 +5,34 @@
 }
 
 <div class="text-center">
+    <img class="img-thumbnail" src="~/img/CookingTheme.jpg" />
+    @*<img src="https://previews.123rf.com/images/miceking/miceking1707/miceking170700045/81569110-chef-hat-with-crossed-knife-and-wooden-spoon.jpg" />*@
     <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
     <hr />
     <br />
-    <div class="col-md-8 offset-2">
-        <h2 class="bg-primary ranna-box-style">We have:</h2>
+    <div class="col-md-10 offset-1">
+        <h2 class="bg-primary ranna-box-style" style="padding:20px;">We have:</h2>
+        <ul class="badge-pill bg-info ranna-box-padding">
+            <li class="ranna-box-style font-weight-bold" style="padding:25px; font-size:20px;">Recipes: @Model.RecipesCount</li>
+            <li class="ranna-box-style font-weight-bold" style="padding:25px; font-size:20px;">Categories: @Model.CategoriesCount</li>
+            <li class="ranna-box-style font-weight-bold" style="padding:25px; font-size:20px;">Ingredients: @Model.IngredientsCount</li>
+        </ul>
         <br />
         <hr />
         <br />
-        <span class="card-header ranna-box-style bg-primary badge-pill font-weight-bold">Recipes: @Model.RecipesCount</span>
-        <span class="card-header ranna-box-style bg-primary badge-pill font-weight-bold">Categories: @Model.CategoriesCount</span>
-        <span class="card-header ranna-box-style bg-primary badge-pill font-weight-bold">Ingredients: @Model.IngredientsCount</span>
+        <div class="row">
+            @foreach (var recipe in this.Model.RandomRecipes)
+            {
+                <div class="ranna-box-style col-sm-4">
+                    <img class="card-img-top" src="@recipe.ImageUrl" alt="@recipe.Name">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">@recipe.Name</h5>
+                        <p class="card-text text-success">@recipe.CategoryName</p>
+                        <a class="btn btn-primary" asp-controller="Recipes" asp-action="ById" asp-route-id="@recipe.Id">Go to recipe</a>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
 </div>
 <br />
