@@ -34,7 +34,7 @@
                 @if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
                 {
     <li class="single-meta">
-        <a asp-controller="Recipes" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+        <a asp-controller="Recipes" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info text-white">Edit</a>
     </li>
                     <li class="single-meta">
                         <form method="post" asp-action="Delete" id="deleteForm" asp-route-id="@Model.Id">
