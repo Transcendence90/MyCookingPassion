@@ -1,13 +1,17 @@
 ﻿@model MyCookingPassion.Web.ViewModels.SearchRecipes.SearchIndexViewModel
 @{ ViewData["Title"] = "Search for your favourite dish by combination of ingredients"; }
 
-<h1>@ViewData["Title"]</h1>
+<br />
+
+<h1 class="text-center ranna-box-style" style="padding:20px;">@ViewData["Title"]</h1>
+
+<h5 class="text-center text-info">Select all ingredients, which you desire to be contained in your dish. After that click search button in the bottom of the page.</h5>
 
 <form asp-action="List" method="get">
     <div class="row">
         @foreach (var ingredient in Model.Ingredients)
         {
-<div class="col-1 text-center">
+<div class="col-sm-1 text-center">
     <input id="ingredient_@ingredient.Id"
            type="checkbox"
            name="Ingredients"
@@ -17,5 +21,7 @@
 </div>}
     </div>
 
-    <button class="btn btn-primary">Search</button>
+    <div class="text-center">
+        <button class="btn btn-primary">Search</button>
+    </div>
 </form>

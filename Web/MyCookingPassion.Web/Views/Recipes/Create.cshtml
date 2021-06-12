@@ -4,7 +4,7 @@
     var categoryItems = this.Model.CategoriesItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
 
-<form method="post" class="col-md-9 offset-md-3" enctype="multipart/form-data">
+<form method="post" class="col-md-9 offset-md-2" enctype="multipart/form-data">
     <h1>@this.ViewData["Title"]</h1>
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group">
