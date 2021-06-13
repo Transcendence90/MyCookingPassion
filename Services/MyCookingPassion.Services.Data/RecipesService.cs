@@ -79,6 +79,13 @@
             await this.recipesRepository.SaveChangesAsync();
         }
 
+        public async Task DeleteAsync(int id)
+        {
+            var recipe = this.recipesRepository.All().FirstOrDefault(x => x.Id == id);
+            this.recipesRepository.Delete(recipe);
+            await this.recipesRepository.SaveChangesAsync();
+        }
+
         public IEnumerable<Т> GetAll<Т>(int page, int itemsPerPage = 15)
         {
             var recipes = this.recipesRepository.AllAsNoTracking()
