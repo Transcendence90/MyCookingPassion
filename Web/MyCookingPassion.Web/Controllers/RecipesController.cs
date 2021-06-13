@@ -1,6 +1,7 @@
 ﻿namespace MyCookingPassion.Web.Controllers
 {
     using System;
+    using System.Text;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
@@ -10,6 +11,7 @@
     using MyCookingPassion.Common;
     using MyCookingPassion.Data.Models;
     using MyCookingPassion.Services.Data;
+    using MyCookingPassion.Services.Messaging;
     using MyCookingPassion.Web.ViewModels.Recipes;
 
     public class RecipesController : Controller
@@ -18,17 +20,20 @@
         private readonly IRecipesService recipesService;
         private readonly UserManager<ApplicationUser> userManager;
         private readonly IWebHostEnvironment environment;
+        private readonly IEmailSender emailSender;
 
         public RecipesController(
             ICategoriesService categoriesService,
             IRecipesService recipesService,
             UserManager<ApplicationUser> userManager,
-            IWebHostEnvironment environment)
+            IWebHostEnvironment environment,
+            IEmailSender emailSender)
         {
             this.categoriesService = categoriesService;
             this.recipesService = recipesService;
             this.userManager = userManager;
             this.environment = environment;
+            this.emailSender = emailSender;
         }
 
         [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
@@ -114,6 +119,21 @@
         {
             await this.recipesService.DeleteAsync(id);
             return this.RedirectToAction(nameof(this.All));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SendToEmail(int id)
+        {
+            var user = await this.userManager.GetUserAsync(this.User);
+            var email = user.Email;
+
+            var recipe = this.recipesService.GetById<RecipeInListViewModel>(id);
+            var html = new StringBuilder();
+            html.AppendLine($"<h1>{recipe.Name}</h1>");
+            html.AppendLine($"<h3>{recipe.CategoryName}</h3>");
+            html.AppendLine($"<img src=\"{recipe.ImageUrl}\" />");
+            await this.emailSender.SendEmailAsync("martin6391@abv.bg", "MyCookingPassion", $"{email}", recipe.Name, html.ToString());
+            return this.RedirectToAction(nameof(this.ById), new { id });
         }
     }
 }

@@ -17,9 +17,9 @@
                     @if (string.IsNullOrWhiteSpace(Model.AddedByUserEmail))
                     {
         <a href="@Model.OriginalUrl" target="_blank">recepti.gotvach.bg</a> }
-                    else
-                    {
-        <span>@Model.AddedByUserEmail</span>}
+    else
+    {
+<span>@Model.AddedByUserEmail</span>}
                 </li>
                 <li class="single-meta">
                     <ul class="item-rating">
@@ -40,15 +40,17 @@
                         <form method="post" asp-action="Delete" id="deleteForm" asp-route-id="@Model.Id">
                         </form>
                         <button class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">Delete</button>
-                    </li>
-                                    <li class="single-meta">
-                                        <form method="post" asp-action="SendToEmail" asp-route-id="@Model.Id">
-                                            <button class="btn btn-warning">Send to my email</button>
-                                        </form>
-                                    </li>
-                                                    <li class="single-meta">
-                                                        <button class="btn btn-warning" onclick="window.print()">Print</button>
-                                                    </li>}
+                    </li>}
+                @if (this.User.Identity.IsAuthenticated)
+                {
+    <li class="single-meta">
+        <form method="post" asp-action="SendToEmail" asp-route-id="@Model.Id">
+            <button class="btn btn-warning">Send to my email</button>
+        </form>
+    </li>
+                    <li class="single-meta">
+                        <button class="btn btn-warning" onclick="window.print()">Print</button>
+                    </li>}
             </ul>
         </div>
     </div>
@@ -96,9 +98,9 @@
                                 @if (Model.PortionsCount == 1)
                                 {
                     <span>Person</span> }
-                                else
-                                {
-                    <span>People</span>}
+                else
+                {
+    <span>People</span>}
                             </div>
                         </div>
                     </div>
