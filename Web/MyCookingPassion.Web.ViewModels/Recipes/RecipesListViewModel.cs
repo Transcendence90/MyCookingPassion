@@ -3,7 +3,10 @@
     using System;
     using System.Collections.Generic;
 
-    public class RecipesListViewModel
+    using MyCookingPassion.Data.Models;
+    using MyCookingPassion.Services.Mapping;
+
+    public class RecipesListViewModel : IMapFrom<Recipe>
     {
         public IEnumerable<RecipeInListViewModel> Recipes { get; set; }
 

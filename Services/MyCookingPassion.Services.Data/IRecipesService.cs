@@ -21,6 +21,8 @@
 
         IEnumerable<T> GetByIngredients<T>(IEnumerable<int> ingredientIds);
 
+        T GetByName<T>(string recipeName);
+
         Task DeleteAsync(int id);
     }
 }

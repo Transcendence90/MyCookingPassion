@@ -39,5 +39,24 @@
 
             return this.View(viewModel);
         }
+
+        public IActionResult SearchByName(string input)
+        {
+            var viewModel = this.recipesService.GetByName<RecipeInListViewModel>(input);
+
+            return this.View(viewModel);
+        }
+
+        public IActionResult RecipeByName(string name)
+        {
+            var recipeViewModel = this.recipesService.GetByName<SingleRecipeViewModel>(name);
+
+            if (recipeViewModel == null)
+            {
+                return this.Redirect("SearchByName");
+            }
+
+            return this.View(recipeViewModel);
+        }
     }
 }

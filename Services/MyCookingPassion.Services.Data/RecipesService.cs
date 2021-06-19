@@ -117,6 +117,16 @@
             return query.To<T>().ToList();
         }
 
+        public T GetByName<T>(string recipeName)
+        {
+            var recipe = this.recipesRepository.AllAsNoTracking()
+                .Where(x => x.Name.Contains(recipeName))
+                .To<T>()
+                .FirstOrDefault();
+
+            return recipe;
+        }
+
         public int GetCount()
         {
             return this.recipesRepository.All().Count();

@@ -1,0 +1,31 @@
+﻿@model MyCookingPassion.Web.ViewModels.Recipes.RecipesListViewModel
+
+@{ ViewData["Title"] = "Search for your favourite dish by name"; }
+
+<br />
+
+<h1 class="text-center ranna-box-style" style="padding:20px;">@ViewData["Title"]</h1>
+
+<br />
+
+<form class="text-center font-weight-bold" asp-action="RecipeByName" method="get">
+    <div class="form-actions no-color col justify-content-center">
+        <span class="ml-4">Find by name =></span>
+        <span>
+            <input type="text" name="name" value="@ViewData["CurrentFilter"]" />
+        </span>
+        <span>
+            <input type="submit" value="Search" class="btn" />
+        </span>
+    </div>
+</form>
+
+<br />
+<br />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr />

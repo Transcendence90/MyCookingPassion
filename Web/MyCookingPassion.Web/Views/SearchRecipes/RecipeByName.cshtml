@@ -1,0 +1,15 @@
+﻿@model MyCookingPassion.Web.ViewModels.Recipes.SingleRecipeViewModel
+@{
+    this.ViewData["Title"] = Model.Name;
+}
+
+<h1 class="text-center">@this.ViewData["Title"]</h1>
+
+<hr />
+
+<div class="text-center">
+    <img src="@Model.ImageUrl">
+    <h5><a class="font-weight-bold" asp-controller="Recipes" asp-action="ById" asp-route-id="@Model.Id">@Model.Name</a></h5>
+    <p src="@Model.CategoryName"></p>
+    <p><a class="font-weight-bold" asp-action="SearchByName">Go back to search for another recipe</a></p>
+</div>

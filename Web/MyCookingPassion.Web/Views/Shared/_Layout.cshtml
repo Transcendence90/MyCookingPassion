@@ -31,7 +31,15 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Recipes" asp-action="All">All Recipes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="SearchRecipes" asp-action="Index">Search</a>
+                                <div class="dropdown">
+                                    <button class="btn btn-group dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Search
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="SearchRecipes" asp-action="Index">Search by ingredients</a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="SearchRecipes" asp-action="SearchByName">Search by name</a>
+                                    </div>
+                                </div>
                             </li>
                             @if (this.User.Identity.IsAuthenticated)
                             {
