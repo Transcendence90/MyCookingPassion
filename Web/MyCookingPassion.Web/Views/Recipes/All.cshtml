@@ -9,10 +9,18 @@
 <div class="row">
     @foreach (var recipe in this.Model.Recipes)
     {
+        @*<div class="ranna-box-style col-sm-4">
+            <img class="card-img-top" src="@recipe.ImageUrl" alt="@recipe.Name">
+            <div class="card-body">
+                <h5 class="card-title text-info">@recipe.Name</h5>
+                <p class="card-text text-success">@recipe.CategoryName</p>
+                <a class="btn btn-primary" asp-controller="Recipes" asp-action="ById" asp-route-id="@recipe.Id">Go to recipe</a>
+            </div>
+        </div>*@
         <div class="media col-md-4 card-columns ranna-box-style text-success">
-            <img src="@recipe.ImageUrl" width="150" class="mr-3" img-responsive>
+            <img src="@recipe.ImageUrl" width="200" img-responsive>
             <div class="media-body">
-                <h5 class="mt-0"><a class="text-info"  asp-action="ById" asp-route-id="@recipe.Id">@recipe.Name</a></h5>
+                <h5 class="mt-0"><a class="text-info" asp-action="ById" asp-route-id="@recipe.Id">@recipe.Name</a></h5>
                 @recipe.CategoryName
             </div>
         </div>
